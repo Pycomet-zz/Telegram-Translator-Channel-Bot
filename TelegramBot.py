@@ -13,9 +13,9 @@ from telethon.tl.types import InputPeerChannel
 from googletrans import Translator
 
 # Defining all the needed variables for full functionality
-token = '' # Input your bot here
-api_id = '' # Input your api_id here
-api_hash = '' # Input your api_hash here
+token = '838906822:AAFoj1ZFfRD2JFvK591Nd-DCXKsFA7n74vE' # Input your bot here
+api_id = '683428' # Input your api_id here
+api_hash = '967b28d111f82b906b6f28da1ff04411' # Input your api_hash here
 
 translator = Translator()
 channel_id = -1001158360927
