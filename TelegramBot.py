@@ -7,15 +7,16 @@
 # And also posts the english verion of the text to a different channel
 
 # Importing necessary modules for this software
+import os
 import telepot
 from telethon import TelegramClient, sync, events
 from telethon.tl.types import InputPeerChannel
 from googletrans import Translator
 
 # Defining all the needed variables for full functionality
-token = '838906822:AAFoj1ZFfRD2JFvK591Nd-DCXKsFA7n74vE' # Input your bot here
-api_id = '683428' # Input your api_id here
-api_hash = '967b28d111f82b906b6f28da1ff04411' # Input your api_hash here
+token = os.getenv("TOKEN") # Input your bot here
+api_id = os.getenv("API_ID") # Input your api_id here
+api_hash = os.getenv("API_HASH") # Input your api_hash here
 
 translator = Translator()
 channel_id = -1001158360927
