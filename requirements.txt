@@ -10,7 +10,7 @@ multidict==4.5.2
 pyaes==1.6.1
 pyasn1==0.4.5
 requests==2.22.0
-rsa==4.0
+rsa==4.1
 telepot==12.7
 Telethon==1.8.0
 typing-extensions==3.7.2
